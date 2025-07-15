@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(description='pytorch-locNet')
 parser.add_argument('--upscaling', type=bool, default=False, help='upscaling for encoding')
 parser.add_argument('--num_classes', type=list, default=[1, 2, 4, 8, 16, 32], help='Number of classes clusters. Default=10')
 parser.add_argument('--mode', type=str, default='train', help='Mode', choices=['train', 'test'])
-parser.add_argument('--batchSize', type=int, default=4,
+parser.add_argument('--batchSize', type=int, default=16,
                     help='Number of triplets (query, pos, negs). Each triplet consists of 12 images.')
 parser.add_argument('--dataset', type=str, default='aerialvl',
                     help='Dataset to use', choices=['aerialvl',])
