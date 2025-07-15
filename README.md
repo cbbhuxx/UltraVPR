@@ -60,7 +60,7 @@ python eval_UAV-VisLoc.py
 This work draws inspiration from the following code as references. We extend our gratitude to these remarkable contributions:
 
 - [NetVlad](https://github.com/Nanne/pytorch-NetVlad)
-- [Redet](https://github.com/csuhan/ReDet)
+- [ReDet](https://github.com/csuhan/ReDet)
 - [CosPlace](https://github.com/gmberton/CosPlace.git)
 
 
