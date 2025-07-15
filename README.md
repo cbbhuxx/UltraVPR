@@ -20,7 +20,7 @@ You can download the test data from here.
 
 [VPAir](https://github.com/AerVisLoc/vpair?tab=readme-ov-file)
 
-[UAV-VisLoc (eval)](https://drive.google.com/drive/folders/1u7f338ZHbZbMdJPA_a_NPWXX4Y_MgUH9?usp=drive_link)
+[UAV-VisLoc (eval)](https://pan.baidu.com/s/1oF09pLUwQZB5lr1Rq6L0-g)
 
 If you need the raw data from UAV-VisLoc:
 [UAV-VisLoc](https://github.com/IntelliSensing/UAV-VisLoc)
