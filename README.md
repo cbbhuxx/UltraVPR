@@ -56,5 +56,13 @@ If you want to test on UAV-VisLoc, please run the following code:
 python eval_UAV-VisLoc.py
 ```
 
+## Acknowledgments 
+This work draws inspiration from the following code as references. We extend our gratitude to these remarkable contributions:
+
+- [NetVlad](https://github.com/Nanne/pytorch-NetVlad)
+- [Redet](https://github.com/csuhan/ReDet)
+- [CosPlace](https://github.com/gmberton/CosPlace.git)
+
+
 
 
