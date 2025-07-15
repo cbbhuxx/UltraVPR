@@ -1,0 +1,3 @@
+## Specific training parameters
+
+For the training of the backbone network, we used two NVIDIA L40S GPUs, each with 48GB of GPU memory. The training was conducted using the Stochastic Gradient Descent (SGD) optimizer with an initial learning rate of 0.1, momentum of 0.9, and L2 weight decay (regularization) coefficient of 1 × $10^{-4}$. The model was trained for a total of 100 epochs, with the learning rate being decayed by a factor of 0.1 (gamma = 0.1) at the end of the 30th, 60th, and 90th epochs. The input image resolution was resized to 224×224, with a batch size of 256. The entire training process completed in  approximately 24 hours.
