@@ -1,5 +1,9 @@
-# UltraVPR
-Unsupervised Lightweight Rotation-Invariant Aerial Visual Place Recognition 
+<p align="center">
+
+  <h3 align="center">UltraVPR:Unsupervised Lightweight Rotation-Invariant Aerial Visual Place Recognition </h3>
+  
+</p>
+
 
 ![image](https://github.com/cbbhuxx/UltraVPR/blob/main/img/example0.jpg)
 
@@ -76,6 +80,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
