@@ -63,6 +63,19 @@ This work draws inspiration from the following code as references. We extend our
 - [ReDet](https://github.com/csuhan/ReDet)
 - [CosPlace](https://github.com/gmberton/CosPlace.git)
 
+## License + attribution/citation
+When using code within this repository, please refer the following [paper](https://ieeexplore.ieee.org/document/11091472) in your publications:
+```
+@ARTICLE{11091472,
+  author={Chen, Chao and Li, Chunyu and He, Mengfan and Wang, Jun and Xing, Fei and Meng, Ziyang},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={UltraVPR: Unsupervised Lightweight Rotation- Invariant Aerial Visual Place Recognition}, 
+  year={2025},
+  volume={10},
+  number={9},
+  pages={9096-9103}}
+
+```
 
 
 
