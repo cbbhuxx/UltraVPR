@@ -10,6 +10,10 @@
 
 ![image](https://github.com/cbbhuxx/UltraVPR/blob/main/img/example0.jpg)
 
+## TODO
+- [ ] The ONNX model and its export code will be released.
+- [ ] The model weights trained on a larger dataset will be released.
+
 ## Prerequisites
 - torch
 - mmcv
@@ -83,6 +87,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
