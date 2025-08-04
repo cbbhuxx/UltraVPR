@@ -4,6 +4,9 @@
   
 </p>
 
+<p align="center">
+  By Chen, Chao and Li, Chunyu and He, Mengfan and Wang, Jun and Xing, Fei and Meng, Ziyang
+</p>
 
 ![image](https://github.com/cbbhuxx/UltraVPR/blob/main/img/example0.jpg)
 
@@ -80,6 +83,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
