@@ -66,7 +66,7 @@ if __name__ == "__main__":
     scaler = GradScaler()
 
     logging.info(f"Create a VPR model")
-    mymodel = utils.set_model(opt)
+    mymodel = utils.set_model(opt)                
     mymodel = mymodel.to(device)
 
     isParallel = False
@@ -83,6 +83,7 @@ if __name__ == "__main__":
     if opt.mode.lower() == 'test':
         epoch = 1
         whole_test_set, whole_val_set = load_dataset.load_dataset(opt)
+        print("====> testing ...")
         recalls = test.test(opt,
                             mymodel,
                             whole_test_set,
@@ -102,7 +103,7 @@ if __name__ == "__main__":
             ))
         not_improved = 0
         best_score = 0
-
+        
         for epoch in range(1, opt.nEpochs + 1):
             if opt.optim.upper() == 'SGD':
                 scheduler.step(epoch)
@@ -114,7 +115,8 @@ if __name__ == "__main__":
                                 classes_set,
                                 device)
                     mymodel.upscale.init_params(classes_centers)
-                
+
+            print("====> training ...")
             train.train(opt,
                         mymodel,
                         train_set,

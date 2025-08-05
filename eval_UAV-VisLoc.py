@@ -237,32 +237,6 @@ def recall_rate(top_k_matches: np.ndarray,
         print(f'Top-{k} Recall Rate: {recall_rates[k]:.2f}%')
 
 
-def visualize(top_k_matches: np.ndarray,
-              query_dataset: BaseDataset,
-              database_dataset: BaseDataset,
-              visual_dir: str = './LOGS/visualize',
-              img_resize_size: Tuple = (320, 320)) -> None:
-    if not os.path.exists(visual_dir):
-        os.makedirs(visual_dir)
-    for q_idx, db_idx in enumerate(tqdm(top_k_matches, ncols=100, desc='Visualizing matches')):
-        pred_q_path = query_dataset.img_path_list[q_idx]
-        q_array = cv2.imread(pred_q_path, cv2.IMREAD_COLOR)
-        q_array = cv2.resize(q_array, img_resize_size, interpolation=cv2.INTER_CUBIC)
-        gap_array = np.ones((q_array.shape[0], 10, 3)) * 255  # white gap
-
-        for i in db_idx.tolist():
-            pred_db_paths = database_dataset.img_path_list[i]
-            db_array = cv2.imread(pred_db_paths, cv2.IMREAD_COLOR)
-            db_array = cv2.resize(db_array, img_resize_size, interpolation=cv2.INTER_CUBIC)
-
-            q_array = np.concatenate((q_array, gap_array, db_array), axis=1)
-
-        result_array = q_array.astype(np.uint8)
-        # result_array = cv2.cvtColor(result_array, cv2.COLOR_RGB2BGR)
-
-        # save result as image using cv2
-        cv2.imwrite(f'{visual_dir}/{os.path.basename(pred_q_path)}', result_array)
-
 
 # load images
      # path to database images folder path

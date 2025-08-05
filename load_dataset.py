@@ -11,7 +11,7 @@ def load_dataset(opt, vpr_model=None):
     if opt.mode.lower() == "train":
         train_set = dataset.get_training_query_set(vpr_model=vpr_model)
         # print("train number:", len(train_set))
-        whole_test_set = dataset.get_whole_test_set()
+        whole_test_set = dataset.get_whole_test_set()      
         whole_val_set = dataset.get_whole_val_set()
         # print("test number:", len(whole_test_set))
         # print("val  number:", len(whole_val_set))
@@ -22,7 +22,6 @@ def load_dataset(opt, vpr_model=None):
     elif opt.mode.lower() == "test":
         whole_test_set = dataset.get_whole_test_set()
         whole_val_set = dataset.get_whole_val_set()
-        print('===> Evaluating on test set')
         return whole_test_set, whole_val_set
 
     elif opt.mode.lower() == "clusters":

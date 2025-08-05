@@ -228,7 +228,7 @@ def main():
     calculate_recalls(top_k_matches,query_dataset, database_dataset)
 
     # visualize top-k matches
-    # visualize(top_k_matches, query_dataset, database_dataset, visual_dir='./LOGS/visualize')
+    visualize(top_k_matches, query_dataset, database_dataset, visual_dir='./LOGS/visualize')
 
 
 if __name__ == '__main__':

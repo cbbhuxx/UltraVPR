@@ -68,6 +68,7 @@ def set_model(opt):
     if opt.upscaling:
         num_all = sum(opt.num_classes)
         upscale = vlad(num_all, opt.encoder_dim)
+        
     if upscale is not None:
         model = ultravpr(backbone, aggregator, upscale)
     else:

@@ -14,13 +14,16 @@
 - [ ] The ONNX model and its export code will be released.
 - [ ] The model weights trained on a larger dataset will be released.
 
-## Prerequisites
-- torch
+## "Requirements" Note
 - mmcv
-- e2cnn
+```
+pip install -U openmim
+mim install mmcv==1.7.2
+```
 - faiss
-- tensorboardX
-- numpy
+```
+conda install -c pytorch faiss-cpu
+```
 
 
 
