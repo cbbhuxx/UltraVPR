@@ -45,7 +45,7 @@ If you need the raw data from UAV-VisLoc:
 
 [UltraVPR's weights](https://pan.baidu.com/s/1epVFLysy0WqGh0xUlpTEAA?pwd=1qdf)
 
-[E2ResNet's weights](https://drive.google.com/drive/folders/1-Ft6N4hlR7CDTwNmY0HKYVQnQ54qNc75?usp=drive_link) ([Specific training parameters](https://github.com/cbbhuxx/UltraVPR/blob/main/models/backbones/README.md))
+[E2ResNet's weights](https://pan.baidu.com/s/13dSCLUrmOH6QhkvlFlJyTg?pwd=ghvf) ([Specific training parameters](https://github.com/cbbhuxx/UltraVPR/blob/main/models/backbones/README.md))
 
 
 ## Train
@@ -90,6 +90,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
