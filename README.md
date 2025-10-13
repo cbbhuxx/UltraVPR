@@ -47,7 +47,6 @@ If you need the raw data from UAV-VisLoc:
 
 ## Train
 If you want to retrain the model, please first load the pre-trained weights of the backbone network. Relevant code is in utils.py.
-
 [E2ResNet's weights](https://pan.baidu.com/s/13dSCLUrmOH6QhkvlFlJyTg?pwd=ghvf) ([Specific training parameters](https://github.com/cbbhuxx/UltraVPR/blob/main/models/backbones/README.md))
 
 After preparing the dataset, please modify the path in dataloader/aerialvl.py.
@@ -90,6 +89,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
