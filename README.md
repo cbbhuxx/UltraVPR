@@ -11,7 +11,8 @@
 ![image](https://github.com/cbbhuxx/UltraVPR/blob/main/img/example0.jpg)
 
 ## TODO
-- [ ] The ONNX model and its export code will be released.
+- [✅] The ONNX model and its export code will be released.
+  The optimized ONNX export code enables the TensorRT model to run at approximately 44 Hz on the Jetson Orin NX, significantly surpassing the 14 Hz reported in the paper.
 - [ ] The model weights trained on a larger dataset will be released.
 
 ## "Requirements" Note
@@ -89,6 +90,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
