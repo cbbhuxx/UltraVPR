@@ -31,7 +31,7 @@ conda install -c pytorch faiss-cpu
 
 
 ## Dataset
-You can download the [training data](https://pan.baidu.com/s/1ips8bresAVJqgzxVBQ86xg?pwd=5kf8) from here.
+You can download the training data from [Baidu Netdisk](https://pan.baidu.com/s/1ips8bresAVJqgzxVBQ86xg?pwd=5kf8) or [Tsinghua Cloud](https://cloud.tsinghua.edu.cn/d/68c3a4ed24cc40f1a7da/?p=%2Ftraining_data&mode=list).
 
 You can download the test data from here.
 
@@ -98,6 +98,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
