@@ -40,7 +40,7 @@ You can download the test data from here.
 UAV-VisLoc (eval): [Baidu Netdisk](https://pan.baidu.com/s/1oF09pLUwQZB5lr1Rq6L0-g?pwd=kau2) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/2721a1f83cdf4718a52f/)
 
 If you need the raw data from UAV-VisLoc:
-[UAV-VisLoc](https://github.com/IntelliSensing/UAV-VisLoc) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/2721a1f83cdf4718a52f/)
+[UAV-VisLoc](https://github.com/IntelliSensing/UAV-VisLoc)
 
 
 
@@ -97,6 +97,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
