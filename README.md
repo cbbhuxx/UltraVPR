@@ -50,6 +50,7 @@ UltraVPR's weights: [Baidu Netdisk](https://pan.baidu.com/s/1epVFLysy0WqGh0xUlpT
 
 ## Train
 If you want to retrain the model, please first load the pre-trained weights of the backbone network. Relevant code is in utils.py.
+
 E2ResNet's weights: [Baidu Netdisk](https://pan.baidu.com/s/13dSCLUrmOH6QhkvlFlJyTg?pwd=ghvf) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/8b2b0ba8dcc44dab9908/)
 
 <!--
@@ -97,6 +98,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
