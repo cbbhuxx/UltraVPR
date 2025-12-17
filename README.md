@@ -35,7 +35,7 @@ You can download the **training data** from [Baidu Netdisk](https://pan.baidu.co
 
 You can download the **test data** from here.
 [VPAir](https://github.com/AerVisLoc/vpair?tab=readme-ov-file), 
-UAV-VisLoc (eval): [Baidu Netdisk](https://pan.baidu.com/s/1oF09pLUwQZB5lr1Rq6L0-g?pwd=kau2) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/2721a1f83cdf4718a52f/)
+UAV-VisLoc (eval): [Baidu Netdisk](https://pan.baidu.com/s/1oF09pLUwQZB5lr1Rq6L0-g?pwd=kau2) or [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/2721a1f83cdf4718a52f/)
 
 If you need the raw data from 
 [UAV-VisLoc](https://github.com/IntelliSensing/UAV-VisLoc)
@@ -44,12 +44,12 @@ If you need the raw data from
 
 ## Weights
 
-**UltraVPR's weights**: [Baidu Netdisk](https://pan.baidu.com/s/1epVFLysy0WqGh0xUlpTEAA?pwd=1qdf) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/ea66ca1bbb334132bcd1/)
+**UltraVPR's weights**: [Baidu Netdisk](https://pan.baidu.com/s/1epVFLysy0WqGh0xUlpTEAA?pwd=1qdf) or [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/ea66ca1bbb334132bcd1/)
 
 ## Train
 If you want to retrain the model, please first load the pre-trained weights of the backbone network. Relevant code is in utils.py.
 
-**E2ResNet's weights**: [Baidu Netdisk](https://pan.baidu.com/s/13dSCLUrmOH6QhkvlFlJyTg?pwd=ghvf) [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/8b2b0ba8dcc44dab9908/)
+**E2ResNet's weights**: [Baidu Netdisk](https://pan.baidu.com/s/13dSCLUrmOH6QhkvlFlJyTg?pwd=ghvf) or [Tsinghua cloud](https://cloud.tsinghua.edu.cn/d/8b2b0ba8dcc44dab9908/)
 
 <!--
 ([Specific training parameters](https://github.com/cbbhuxx/UltraVPR/blob/main/models/backbones/README.md))
@@ -96,6 +96,7 @@ When using code within this repository, please refer the following [paper](https
   pages={9096-9103}}
 
 ```
+
 
 
 
